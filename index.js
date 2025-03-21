@@ -15,8 +15,7 @@ Uliste.appendChild(li4) //Ajout des balises a la Uliste
 
 let newUlist = Uliste.removeChild(li4) //suppression du dernier element
 
-// var e = prompt("Entrer du texte")
-let e = "Apprendre JSON, pratiquer le CSS, explorer html"
+var e = prompt("Entrer du texte")
 li1.textContent = e
 const myArray = e.split(",");
 console.log(myArray)
