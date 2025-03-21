@@ -19,6 +19,7 @@ var e = prompt("Entrer du texte")
 li1.textContent = e
 const myArray = e.split(",");
 console.log(myArray)
+
  //partie 6
 
  for(let i = 0; i < myArray.length; i++){
